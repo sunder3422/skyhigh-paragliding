@@ -1,15 +1,17 @@
-import {Navigation} from './Navigation/Navigation';
+import { Navigation } from './Navigation/Navigation';
 import "./Homepage.css";
 import { Frontpage } from './Frontpage/Frontpage';
-import {About} from './About/About';
-export let Homepage=()=>{
-    return(
+import { About } from './About/About';
+import { Location } from './Location/Location';
+import { Footer } from './Footer/Footer';
+export let Homepage = () => {
+    return (
         <div className="navPlusfrontPage">
             <div class="navModule">
-            <Navigation/>
+                <Navigation />
             </div>
             <div classNAme="frontBody">
-                <Frontpage/>
+                <Frontpage />
             </div>
             <div className="joinUs">
                 <div className="joinUsButton">
@@ -17,9 +19,16 @@ export let Homepage=()=>{
                 </div>
             </div>
             <div className='about'>
-              <About/>
+                <About />
+            </div>
+            <div className='line'></div>
+            <div className="LocationPage">
+                <Location />
+            </div>
+            <div className='FooterPage'>
+                <Footer/>
             </div>
         </div>
-        
+
     );
 }

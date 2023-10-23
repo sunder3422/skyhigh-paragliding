@@ -1,0 +1,34 @@
+ .locationPage{
+    padding:10px;
+    height:80vh;
+    width:70%;
+    align-items: center;
+    margin:auto;
+    /* justify-content: space-around; */
+    /* width:100vh; */
+ }
+ .locationPage h1{
+    text-align: center;
+ }
+ 
+ .locationCards{
+    justify-content: space-around;
+    display:flex;
+ }
+
+ .Cards{
+    
+    width:300px;
+    /*  */
+    display:block;
+    padding:5px;
+    background-color: rgba(198, 198, 205, 0.574);
+ }
+ .nanitalImage {
+   height:250px;
+ }
+ .bhimtalImage{height:250px;}
+ .location-images{
+    height: 100%;
+    width:100%;
+ }
