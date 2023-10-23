@@ -1,0 +1,29 @@
+.AboutPAge{
+    margin:10px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftAbout{width:50%;text-align: center;align-items: center;}
+.aboutRows{margin-top:10px;}
+.aboutRows div{display: inline-block;margin:10px;width:200px;
+    border:1px solid black;
+    padding:10px;   
+    text-align: center;}
+.aboutRows div:nth-child(1)
+{
+    background-color: aqua;
+}
+.aobutFeaturesTable{
+    margin:auto;
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.211);
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    /* width: */
+}
+.AboutUsDetail{text-align: start;}
+
+.rightAbout{height:100%;width:50%;text-align: center;}
+.aboutImageContainer img{width:70%;height:70vh;}
