@@ -2,7 +2,7 @@
 import './About.css';
 export let About=()=>{
     return(
-        <div class="Main About">
+        <div class="Main_About">
             <h2>About us</h2>
         <div className="AboutPAge">
             

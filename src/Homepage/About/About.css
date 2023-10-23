@@ -1,24 +1,32 @@
 .AboutPAge{
     margin:10px;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
 }
+.Main_About{
+    margin-top:10px;
+}
+.Main_About h2{text-align: center;}
 
 .leftAbout{width:50%;text-align: center;align-items: center;}
 .aboutRows{margin-top:10px;}
-.aboutRows div{display: inline-block;margin:10px;width:200px;
-    border:1px solid black;
-    padding:10px;   
-    text-align: center;}
+.aboutRows div{    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -1px 2px 5px 1px dimgrey;}
 .aboutRows div:nth-child(1)
 {
-    background-color: aqua;
+    background-color: #0080f2;
 }
 .aobutFeaturesTable{
     margin:auto;
     width: fit-content;
-    background-color: rgba(128, 128, 128, 0.211);
+    /* background-color: rgba(128, 128, 128, 0.211); */
     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
     /* width: */
