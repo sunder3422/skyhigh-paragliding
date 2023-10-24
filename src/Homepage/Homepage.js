@@ -10,24 +10,28 @@ export let Homepage = () => {
             <div class="navModule">
                 <Navigation />
             </div>
-            <div classNAme="frontBody">
+          
+            <div className="frontBody">
                 <Frontpage />
-            </div>
-            <div className="joinUs">
+                <div className="joinUs">
                 <div className="joinUsButton">
                     JOIN US
                 </div>
             </div>
+            </div>
+            
             <div className='about'>
                 <About />
             </div>
+            
             <div className='line'></div>
             <div className="LocationPage">
                 <Location />
             </div>
+            
             <div className='FooterPage'>
                 <Footer/>
-            </div>
+            </div> 
         </div>
 
     );

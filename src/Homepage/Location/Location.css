@@ -1,6 +1,6 @@
  .locationPage{
     padding:10px;
-    height:80vh;
+    /* height:80vh; */
     width:70%;
     align-items: center;
     margin:auto;
@@ -20,15 +20,29 @@
     
     width:300px;
     /*  */
-    display:block;
+    display:block; 
     padding:5px;
+    margin:5px;
     background-color: rgba(198, 198, 205, 0.574);
  }
- .nanitalImage {
-   height:250px;
- }
- .bhimtalImage{height:250px;}
+
+ .nanitalImage ,.bhimtalImage{height:250px;}
  .location-images{
     height: 100%;
     width:100%;
+ }
+
+ @media screen and (max-width:600px) {
+   .ContentDesc{font-size: 10px;}
+   .nanitalImage ,.bhimtalImage{height:200px;}
+   .locationPage{
+      width:90%;
+   }
+   .locationCards{
+      justify-content: space-around;
+      display:block;
+   }
+   .Cards{
+      margin:5px;
+   }
  }
