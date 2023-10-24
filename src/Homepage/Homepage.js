@@ -1,4 +1,4 @@
-import { Navigation } from './Navigation/Navigation';
+import { Nav } from './Navigation/Nav';
 import "./Homepage.css";
 import { Frontpage } from './Frontpage/Frontpage';
 import { About } from './About/About';
@@ -7,31 +7,30 @@ import { Footer } from './Footer/Footer';
 export let Homepage = () => {
     return (
         <div className="navPlusfrontPage">
-            <div class="navModule">
-                <Navigation />
-            </div>
-          
-            <div className="frontBody">
-                <Frontpage />
-                <div className="joinUs">
-                <div className="joinUsButton">
-                    JOIN US
+            <div className='front-nav'>
+
+                <div className="frontBody">
+                    <Frontpage />
+                    <div className="joinUs">
+                        <div className="joinUsButton">
+                            JOIN US
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-            
+
             <div className='about'>
                 <About />
             </div>
-            
+
             <div className='line'></div>
             <div className="LocationPage">
                 <Location />
             </div>
-            
+
             <div className='FooterPage'>
-                <Footer/>
-            </div> 
+                <Footer />
+            </div>
         </div>
 
     );

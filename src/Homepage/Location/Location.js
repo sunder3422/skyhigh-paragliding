@@ -4,7 +4,7 @@ export let Location = () => {
         <div className="locationPage">
             <h1>Locations</h1>
                 <div className="locationCards">
-                    <div class="bhimtalCard Cards">
+                    <div className="bhimtalCard Cards">
                         <div className="bhimtalImage">
                             <img  className="location-images" src="assets/images/bhimtal.jpg"/>
                         </div>
@@ -22,7 +22,7 @@ export let Location = () => {
                             <p>Nanital a beautiful place to visit sorrounded with mountains and a beauty to watch. sorrounded by mountains so it give a seriene view to watch and paraglide with us.</p>
                         </div>
                     </div>
-                    <div class="bhimtalCard Cards">
+                    <div className="bhimtalCard Cards">
                         <div className="bhimtalImage">
                             <img  className="location-images" src="assets/images/bhimtal.jpg"/>
                         </div>

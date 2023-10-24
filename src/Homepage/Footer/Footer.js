@@ -3,13 +3,15 @@ import "./Footer.css";
 export let Footer = () => {
     return (
         <div className="footerMain">
+            <div className="sub-heading">Subscribe to us for updates</div>
             <div className="footerSubscribe">
                 <input type="text"></input>
                 <button>Subscribe</button>
             </div>
+            <div className="connectWithUs-main">
             <div className="aboutus">
                         <p>This is the paragraph fot wring about the company,,we would like to tell we we build the best website template connect with us</p>
-                    </div>
+            </div>
             <div className="rightFooter">
                 <div className="connectWitUS">
 
@@ -32,6 +34,7 @@ export let Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );

@@ -1,17 +1,24 @@
 #nav {
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.377);
+    /* background-color: rgba(128, 128, 128, 0.377); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     height:fit-content;
 
 }
-
-#nav:hover {
-    background-color: rgba(128, 128, 128, 0.542);
+#nav{
+    background-image: url("../../../public/assets/images/FrontPage3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: difference;
     
 }
+.navigationButton a{
+    text-decoration: none;
+    color:white;
+}
+
 
 #leftNavDiv {
     display: flex;

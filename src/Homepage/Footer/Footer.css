@@ -1,34 +1,45 @@
 .footerMain{
-    /* margin:20px; */
-   height:30vh;
      background-color: rgb(25, 112, 227);
     color:white;
-    
+    width:100%;
     display: inline-block;
     justify-content: space-around;
     align-items: center; 
-    /* padding:20px; */
+    padding-bottom:20px;
+}
+.sub-heading{
+    margin-top:10px;
+    text-align: center;
 }
 
+.footerSubscribe{text-align: center;}
 .footerSubscribe input{
+    margin:10px;
     width:300px;
     height: 30px;
     border:none;
 }
 .footerSubscribe button{
+    margin:10px;
     height: 30px;
     border:none;
     border-radius:4px;
 }
-.socialIcon{
-    display: flex;
-    justify-content: space-around;
+
+.connectWithUs-main{
+    width:50%;
+    margin:auto;
+    
 }
-.socialIcon div{width:30px;height:30px;}
+.socialIcon{
+    text-align: center;
+}
+.socialIcon div{width:30px;height:30px;
+    display: inline-block;margin:10px;}
 .socialIcon div img{
     width:100%;
     height:100%;
 }
 .socialMedia{text-align: center;}
-.aboutus{text-wrap: wrap;}
+.aboutus{text-align:center;}
 .connectWitUS{width:100%;}

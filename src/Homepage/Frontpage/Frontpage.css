@@ -48,9 +48,23 @@ margin:5px;}
     grid-row:11/21;
 }
 
+.img1{width:100%;height:100%;border-radius:10px;}
+.img2{width:100%;height:100%;border-radius:10px;}
+.img3{width:100%;height:100%;border-radius:10px;}
+.img4{width:100%;height:100%;border-radius:10px;}
+
+@media screen and (max-width:750px) 
+{
+   
+    /* #frontTop{display: block;} */
+    #FrontLeft{width:50%;}
+    #FrontRight{width:50%;}
+    
+}
 
 @media screen and (max-width:600px) 
 {
+    /* FrontLeft */
     #frontTop{
         /* margin-top:20px; */
         display: flex;

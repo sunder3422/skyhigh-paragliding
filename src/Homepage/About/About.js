@@ -2,27 +2,27 @@
 import './About.css';
 export let About=()=>{
     return(
-        <div class="Main_About">
+        <div className="Main_About">
             <h2>About us</h2>
         <div className="AboutPAge">
             
             
             <div className="rightAbout">
-                <div class="aboutImageContainer">
+                <div className="aboutImageContainer">
                     <img src="assets/images/para-collage.png"/>
                 </div>
             </div>
             <div className="leftAbout">
-            <div class="aobutFeaturesTable">
-                <div class="row1-aboutus aboutRows">
+            <div className="aobutFeaturesTable">
+                <div className="row1-aboutus aboutRows">
                     <div>Trainded Experts</div>
                     <div>Secure & Safe</div>
                 </div>
-                <div class="row2-aboutus aboutRows" >
+                <div className="row2-aboutus aboutRows" >
                     <div>Medical Staff</div>
                     <div>Best Equipment</div>
                 </div>
-                <div class="row3-aboutus aboutRows" >
+                <div className="row3-aboutus aboutRows" >
                     <div>Customer Support</div>
                     <div>Affordable price</div>
                 </div>
