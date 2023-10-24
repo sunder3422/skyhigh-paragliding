@@ -6,6 +6,12 @@ export let About=()=>{
             <h2>About us</h2>
         <div className="AboutPAge">
             
+            
+            <div className="rightAbout">
+                <div class="aboutImageContainer">
+                    <img src="assets/images/para-collage.png"/>
+                </div>
+            </div>
             <div className="leftAbout">
             <div class="aobutFeaturesTable">
                 <div class="row1-aboutus aboutRows">
@@ -30,11 +36,9 @@ export let About=()=>{
                 </p>
             </div>
             </div>
-            <div className="rightAbout">
-                <div class="aboutImageContainer">
-                    <img src="assets/images/para-collage.png"/>
-                </div>
-            </div>
+        </div>
+        <div className='moreAboutus'>
+            <div className='aboutusButton'>Know More</div>
         </div>
         </div>
     );
