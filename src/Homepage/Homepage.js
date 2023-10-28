@@ -4,6 +4,7 @@ import { Frontpage } from './Frontpage/Frontpage';
 import { About } from './About/About';
 import { Location } from './Location/Location';
 import { Footer } from './Footer/Footer';
+import { Customers } from './Customers/Customers';
 export let Homepage = () => {
     return (
         <div className="navPlusfrontPage">
@@ -24,6 +25,9 @@ export let Homepage = () => {
             </div>
 
             <div className='line'></div>
+            <div className='customersPage'>
+                <Customers/>
+            </div>
             <div className="LocationPage">
                 <Location />
             </div>

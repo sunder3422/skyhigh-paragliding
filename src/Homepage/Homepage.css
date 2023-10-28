@@ -30,6 +30,11 @@
 }
 .line{width:50%;background-color: rgb(71, 70, 70);height:1px;margin:auto;}
 .LocationPage{
-    background-color: #4794ddba;
+    /* background-color: #4794ddba; */
     margin-top:10px;    
+}
+.customersPage{
+    background-color: #59bcff;
+    margin-top:10px;
+    padding:10px;
 }

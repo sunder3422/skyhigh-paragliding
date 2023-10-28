@@ -19,7 +19,7 @@ export let Nav = () => {
                 <div className='cross' onClick={showNav}>X</div>
                 <div className="navigationButton"><Link to="/">Home</Link></div>
                 <div className="navigationButton">Activity</div>
-                <div className="navigationButton">Pricing</div>
+                <div className="navigationButton"><Link to="/price">Pricing</Link></div>
                 <div className="navigationButton"><Link to="/contact">ContactUs</Link></div>
             </div>
             <div id="navButton">

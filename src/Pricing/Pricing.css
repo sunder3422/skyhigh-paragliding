@@ -1,0 +1,91 @@
+
+.pricingPage{
+    background-color: white;
+    height: 100vh;
+}
+.pricingPage h1{
+    margin-top: 0;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+.pricingboxes{
+    display: flex;
+    
+    color:white;
+    margin:10px auto;
+    width:80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricing-1{
+    border-radius:10px 10px 0px 0px;
+    width:300px;
+    height:500px;
+    margin:10px;
+    background-color: white;
+    box-shadow: 2px 5px 7px 1px black;
+    background-color: blueviolet;
+    height: fit-content;
+
+}
+.pricing-title{
+    border-radius:10px 10px 0px 0px;
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 42px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: fit-content;
+    margin:auto;
+    
+}
+.pricing-title div{padding-top:20%;align-items: center;}
+.pricing-scheme{color:black;font-size: 0.7rem;background-color: white;}
+
+.timeStamp{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+    color:white;
+    
+}
+.timeStamp div{
+    margin:5px;
+}
+.month-1{
+    background-color: rgb(6, 111, 192);
+}
+.halfyear-1{
+    background-color: rgb(6, 192, 121);
+}
+.year-1{
+    background-color: rgb(192, 142, 6);
+}
+
+.details-monthly{
+    /* font-size:10px; */
+    font-family: sans-serif;
+    text-align: center;
+    margin:5px;
+}
+.details-monthly div{
+    margin-top:8px;
+    /* border:1px solid grey; */
+    border:none;
+    border-radius:5px;
+    padding:2px;
+    /* box-shadow:1px 1px 2px 1px black; */
+}
+
+@media screen and (max-width:750px) {
+
+    .pricing-1{
+        height:500px;
+        display: flex;
+        width:400px;
+        border-radius:10px 0px 0px 10px;
+    }
+    .pricing-scheme{width:100%;}
+    .pricing-title{border-radius:10px 0px 0px 10px;text-align: center;}
+}
