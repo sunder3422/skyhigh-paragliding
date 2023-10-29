@@ -102,6 +102,10 @@
         font-weight: bolder;
         margin-bottom: 10px;
     }
+    
+.navigationButton a{
+    color:black;
+}
     #rightNavDiv {
         /* display:block; */
         
