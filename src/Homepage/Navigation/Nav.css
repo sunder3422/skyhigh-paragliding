@@ -54,6 +54,7 @@
 
 @media screen and (min-width:600px) {
     #rightNavDiv {
+        color:black;
         width: 500px;
         display: flex;
         justify-content: space-around;
@@ -62,6 +63,9 @@
         /* position: fixed; */
         display: none;
         
+    }
+    .navigationButton{
+        color:black;
     }
 }
 
